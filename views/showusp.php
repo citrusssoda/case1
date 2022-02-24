@@ -5,8 +5,6 @@ $db = new Database();
 
 $evaluations = $db->query("SELECT * FROM `evaluations`");  //выбрать всё из таблицы evaluations
 
-
-
 ?>
   <thead>
     <tr>
@@ -28,3 +26,4 @@ foreach($evaluations as $marks){
 }?>
   </tbody>
 </table>
+
