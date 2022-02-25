@@ -1,7 +1,6 @@
 <?php require_once 'includes/header.php' ?>
 <body>
     <div class="container-sm">  
-        
          <form>
         <div class="container-reg">
             <div class="input-group mb-4">
@@ -21,10 +20,7 @@
                 <input placeholder='Введите e-mail' type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="email">
             </div>
 
-
-
-       <button class="btn btn-primary" id="buttonRegUser">Сменить</button>
+       <button class="btn btn-primary" id="buttonRegUser">Смeнить</button>
     </form>
-        
     </div>
 </body>
